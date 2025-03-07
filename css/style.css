@@ -370,9 +370,14 @@ animation: words 30s infinite;
   padding: 5em;
 }
 
-.service-info a:visited {
-  color: inherit; /* Hereda el color del elemento principal */
-  text-decoration: none; /* Si quieres quitar el subrayado */
+.service-box .service-info a {
+  color: white; 
+  text-decoration: none ; 
+}
+
+.service-box .service-info a:visited {
+  color: inherit; 
+  text-decoration: none; 
 }
 
 .service-info h4{
