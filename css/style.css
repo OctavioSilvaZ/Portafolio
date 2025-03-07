@@ -93,6 +93,10 @@ html::-webkit-scrollbar-thumb {
     display: block;
   }
 
+  .logo a{
+    text-align: center;
+  }
+
   .navbar {
     position: absolute;
     top: 100%;
@@ -302,14 +306,17 @@ animation: words 30s infinite;
 
 @media (max-width:995px) {
   
-  .home-about h1{
-    font-size: 1.5rem;
+  .home .home-about h1{
+    font-size: 78px;
+    text-align: center;
+  }
+  .home-about  h1{
     flex-direction: column;
-    margin-left: 8.5rem;
   }
 
   .home-about h3{
-    margin-left: 8rem;
+    font-size: 2.3rem;
+    margin-left: 15rem;
   }
 
   .home{
