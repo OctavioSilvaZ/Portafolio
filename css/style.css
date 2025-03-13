@@ -366,7 +366,7 @@ animation: words 30s infinite;
 
 .service-box{
   background-color: var(--main-color);
-  height: 510px;
+  height: 580px;
   border-radius: 3rem;
   cursor: pointer;
   transition: 0.3s ease;
