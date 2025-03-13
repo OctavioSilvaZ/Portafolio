@@ -340,6 +340,26 @@ animation: words 30s infinite;
 
 }
 
+@media (min-width: 800px) and (max-width: 1460px)  {
+
+  .service-box{
+    height: 680px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+
+  .service-info h4{
+    margin-top: 16rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+}
+
 .services{
   background: var(--second-bg-color);
 }
@@ -366,7 +386,6 @@ animation: words 30s infinite;
 
 .service-box{
   background-color: var(--main-color);
-  height: 580px;
   border-radius: 3rem;
   cursor: pointer;
   transition: 0.3s ease;
@@ -383,10 +402,10 @@ animation: words 30s infinite;
   display: flex;
   flex-direction: column;
   text-align: left;
-  max-height: 200px;
   justify-content: center;
   align-items: center;
-  padding: 5em;
+  padding: 5.2em;
+  height: 520px;
 }
 
 .service-box .service-info a {
@@ -410,7 +429,6 @@ animation: words 30s infinite;
   text-align: justify;
   font-size: 1.6rem;
   font-weight: 400;
-  max-height: 100px;
   margin: auto;
 }
 
