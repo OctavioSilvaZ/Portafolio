@@ -462,7 +462,7 @@ section{
   cursor: pointer;
   border: 5px solid var(--main-color);
   transition: 0.3s ease;
-  height: 80rem;
+  height: 92rem;
 }
 
 .heading{
