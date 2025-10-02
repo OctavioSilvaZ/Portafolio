@@ -526,7 +526,7 @@ background: var(--bg-color);
 
 @media screen and (max-width:600px){
   .skills .container{
-    margin: 0;
+     margin-top: 5px;
     padding: 0;
   }
 
@@ -537,10 +537,6 @@ background: var(--bg-color);
     gap: 1rem;
   }
 
-  .skills .container{
-    margin-top: 5px;
-    width:100% ;
-  }
 }
 
 /* Educacion Section*/
