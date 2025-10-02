@@ -482,7 +482,7 @@ background: var(--bg-color);
   color: var(--text-color);
   border-radius: 1rem;
   padding: 2rem;
-  width:70%;
+  width:100%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -526,7 +526,7 @@ background: var(--bg-color);
 
 @media screen and (max-width:600px){
   .skills .container{
-     margin-top: 5px;
+    margin-top: 5px;
     padding: 0;
   }
 
