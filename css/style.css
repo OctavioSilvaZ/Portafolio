@@ -200,28 +200,6 @@ text-align: justify;
   line-height: 1.3;
 }
 
-
-
-
-/*.home-img{
-    border-radius: 50%;
-}
-
-.home-img img{
-    position: relative;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
-    cursor: pointer;
-}
-
-.home-img img:hover{
-    transform: scale(1.01);
-    filter: drop-shadow(0 0 25px var(--main-color));
-}*/
-
-
-
 .social-icon a{
     display:inline-flex;
     justify-content: center;
@@ -279,13 +257,13 @@ animation: words 30s infinite;
 }
 
 @keyframes words{
-    0%, 33%{  /* 0 -33*/
+    0%, 33%{  
         content: 'Web Developer';
     }
-    34%, 66%{  /* 34 - 66*/
+    34%, 66%{  
         content: 'Software Developer';
     }
-    67%, 100%{  /* 67-100*/
+    67%, 100%{  
         content: 'BackEnd Developer';
       }
 }
@@ -363,7 +341,7 @@ animation: words 30s infinite;
 @media (min-width: 800px) and (max-width: 1460px)  {
 
   .service-box{
-    height: 680px;
+    height: 90rem;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
@@ -371,22 +349,20 @@ animation: words 30s infinite;
   
 
   .service-info h4{
-    margin-top: 16rem;
+    margin-top: -2rem;
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
     text-align: center;
   }
-  
-}
 
-.services{
-  background: var(--second-bg-color);
+  
+  
 }
 
 .heading{
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   font-size: 5rem;
   justify-content: center;
   align-items: center;
@@ -394,38 +370,47 @@ animation: words 30s infinite;
 
 .heading span{
   align-items: center;
-  margin: 20px;
+  margin: 20px ;
+  text-shadow: 0 4px 2px rgba(255, 255, 255, 0.726);
 }
+
+
+
+.services{
+  background: var(--second-bg-color);
+}
+
 
 .services-container{
   display: grid;
+  height: 100%;
+  width: 100%;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
 
 .service-box{
-  background-color: var(--main-color);
   border-radius: 3rem;
   cursor: pointer;
+  border: 5px solid var(--main-color);
   transition: 0.3s ease;
 }
 
 .service-box:hover{
   background: transparent;
-  color: var(--text-color); /* main-color */
+  color: var(--text-color);
   transform: scale(1.03);
-  border: 1px solid var(--main-color);
+  border: 5px solid white;
+  box-shadow:0 1px 10px 1px white;
 }
 
 .service-box .service-info{
-  display: flex;
   flex-direction: column;
-  text-align: left;
   justify-content: center;
   align-items: center;
   padding: 5.2em;
-  height: 520px;
+  height: 70rem;
 }
 
 .service-box .service-info a {
@@ -441,7 +426,7 @@ animation: words 30s infinite;
 .service-info h4{
   font-size: 2.5rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -465,12 +450,25 @@ section{
 
 @media (max-width:895px){
   .services h2{
-    margin-bottom: 3rem;
+    margin-top: -5rem;
   }
 
   .services-container{
     grid-template-columns: repeat(1,1fr);
   }
+
+  .service-box{
+  border-radius: 3rem;
+  cursor: pointer;
+  border: 5px solid var(--main-color);
+  transition: 0.3s ease;
+  height: 80rem;
+}
+
+.heading{
+  margin-top: -5rem;
+}
+  
 }
 
 /* Skills Section #e1362c*/
@@ -561,7 +559,7 @@ background: var(--bg-color);
   content: '';
   position: absolute;
   width: 6px;
-  background: rgb(90,64,64);
+  background: #2c47e167;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -635,9 +633,10 @@ background: var(--bg-color);
 }
 
 .education .content{
-  background: var(--main-color);
+  background-color: #1728a7dc;
+  box-shadow:0 4px 10px 8px var(--main-color);
   position: relative;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .education .content .tag{
@@ -655,15 +654,16 @@ background: var(--bg-color);
 .education .content .tag h2{
   font-size: 2rem;
   font-weight: 600;
-  color: black;
+  color: rgb(255, 255, 255);
 
 }
 
 .education .content .decs p{
-  margin-top: 15px;
+  margin: 15px 30px 15px 20px;
   font-size: 1.3rem;
   font-weight: 5000 ;
-  color: black;
+  text-align: justify;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -671,8 +671,13 @@ background: var(--bg-color);
   .education .timeline{
     margin-top: 2rem;
   }
+  
+  .education .heading {
+    font-size: 4.1rem;
+    margin-left: 2rem;
+  }
 
-  .education .timeline::after{
+    .education .timeline::after{
     left: 31px;
   }
 
